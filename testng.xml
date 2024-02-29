@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+<listeners>
+<listener class-name="utilities.ExtendReports"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+  	<classes>
+  		<class name="testCase.TC_01_upcomingbikes"/>
+  		 <class name="testCase.TC_02_usedcars" />
+  		<class name="testCase.TC_03_login" /> 
+  		<!--class name="TestSuite.RegressionTest" />
+  		<class name="TestSuite.smokeTest" /!-->
+  	</classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
