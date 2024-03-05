@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-29T12:32:26 IST" name="Suite" finished-at="2024-02-29T12:35:25 IST" duration-ms="179643">
+  <suite started-at="2024-03-05T14:09:08 IST" name="Suite" finished-at="2024-03-05T14:11:07 IST" duration-ms="118923">
     <groups>
     </groups>
-    <test started-at="2024-02-29T12:32:26 IST" name="Test" finished-at="2024-02-29T12:35:25 IST" duration-ms="179643">
+    <test started-at="2024-03-05T14:09:08 IST" name="Test" finished-at="2024-03-05T14:11:07 IST" duration-ms="118923">
       <class name="testCase.TC_01_upcomingbikes">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TC_01_upcomingbikes@304bb45b]" started-at="2024-02-29T12:32:04 IST" name="setup" finished-at="2024-02-29T12:32:26 IST" duration-ms="21119" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TC_01_upcomingbikes@304bb45b]" started-at="2024-03-05T14:08:57 IST" name="setup" finished-at="2024-03-05T14:09:08 IST" duration-ms="11314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="upcomingbike()[pri:1, instance:testCase.TC_01_upcomingbikes@304bb45b]" started-at="2024-02-29T12:32:26 IST" name="upcomingbike" finished-at="2024-02-29T12:33:52 IST" duration-ms="85824" status="PASS">
+        <test-method signature="upcomingbike()[pri:1, instance:testCase.TC_01_upcomingbikes@304bb45b]" started-at="2024-03-05T14:09:09 IST" name="upcomingbike" finished-at="2024-03-05T14:10:09 IST" duration-ms="59514" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- upcomingbike -->
-        <test-method is-config="true" signature="close()[pri:0, instance:testCase.TC_01_upcomingbikes@304bb45b]" started-at="2024-02-29T12:35:34 IST" name="close" finished-at="2024-02-29T12:35:42 IST" duration-ms="7765" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:testCase.TC_01_upcomingbikes@304bb45b]" started-at="2024-03-05T14:11:20 IST" name="close" finished-at="2024-03-05T14:11:26 IST" duration-ms="6054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- testCase.TC_01_upcomingbikes -->
       <class name="testCase.TC_02_usedcars">
-        <test-method signature="usedCars()[pri:2, instance:testCase.TC_02_usedcars@c430e6c]" started-at="2024-02-29T12:33:53 IST" name="usedCars" finished-at="2024-02-29T12:34:37 IST" duration-ms="44744" status="PASS">
+        <test-method signature="usedCars()[pri:2, instance:testCase.TC_02_usedcars@c430e6c]" started-at="2024-03-05T14:10:09 IST" name="usedCars" finished-at="2024-03-05T14:10:47 IST" duration-ms="37615" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usedCars -->
       </class> <!-- testCase.TC_02_usedcars -->
       <class name="testCase.TC_03_login">
-        <test-method signature="login()[pri:3, instance:testCase.TC_03_login@312aa7c]" started-at="2024-02-29T12:34:38 IST" name="login" finished-at="2024-02-29T12:35:25 IST" duration-ms="47307" status="PASS">
+        <test-method signature="login()[pri:3, instance:testCase.TC_03_login@312aa7c]" started-at="2024-03-05T14:10:47 IST" name="login" finished-at="2024-03-05T14:11:07 IST" duration-ms="19888" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->

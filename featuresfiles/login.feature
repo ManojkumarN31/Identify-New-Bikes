@@ -1,4 +1,4 @@
-		Feature: Title of your feature
+		Feature: login the page
 
   @tag1
   Scenario: login page

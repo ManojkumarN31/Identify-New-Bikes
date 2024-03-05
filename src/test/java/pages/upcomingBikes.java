@@ -73,7 +73,7 @@ public class upcomingBikes extends basePage {
 	}
 	public void bikeDetails(WebDriver driver) throws InterruptedException, IOException {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0,1300)");
+		js.executeScript("window.scrollBy(0,1700)");
 		Thread.sleep(5000);
 		morebike.click();
 		
@@ -89,7 +89,7 @@ public class upcomingBikes extends basePage {
 			 if (ra.contains("Lakh")) {
 		           float value1 = Float.parseFloat(ra.split(" ")[0]) * 100000;	
 		           if(value1<=fixed) {
-		        	   System.out.println(name.get(i).getText());
+		        	   System.out.println("\n" +name.get(i).getText());
 		        	   System.out.println(date.get(i).getText());
 		        	   System.out.println(amount.get(i).getText());
 		        	   bikexl.add(name.get(i).getText());
@@ -101,9 +101,9 @@ public class upcomingBikes extends basePage {
 			 }
 		         else {
 		        	 float value1 = Float.parseFloat(ra);
-		            System.out.println(value1);
+//		           
 		            if(value1<=fixed) {
-		            	System.out.println(name.get(i).getText());
+		            	System.out.println("\n" +name.get(i).getText());
 			        	   System.out.println(date.get(i).getText());
 			        	     
 		            	System.out.println(amount.get(i).getText());

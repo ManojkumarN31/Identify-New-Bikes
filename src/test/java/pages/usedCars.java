@@ -34,7 +34,7 @@ public class usedCars extends basePage {
 	public void usedcars() throws InterruptedException {
 		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("window.scrollBy(0,-1300)");
+		js.executeScript("window.scrollBy(0,-1800)");
 		Thread.sleep(3000);
 		Actions action = new Actions(driver);
 		action.moveToElement(usedcars).perform();
